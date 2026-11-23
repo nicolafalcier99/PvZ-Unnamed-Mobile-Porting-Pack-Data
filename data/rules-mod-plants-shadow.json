@@ -1,0 +1,9 @@
+{
+	"modPlants.shadow.dreamStarfruitFlicker": 6,
+	"modPlants.modSun.skipModes": [43, 50, 71, 72],
+	"modPlants.modSun.firstTimerFullRange": 1,
+	"modPlants.repeaterPoison.tintR": 0,
+	"modPlants.repeaterPoison.tintG": 255,
+	"modPlants.repeaterPoison.tintB": 64,
+	"modPlants.loadedCannon.twoSquares": 1
+}

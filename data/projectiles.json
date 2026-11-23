@@ -1,0 +1,11 @@
+{
+	"COBBIG": {
+		"damage": 400
+	},
+	"SPIKE": {
+		"damage": 1
+	},
+	"STAR": {
+		"damage": 1
+	}
+}

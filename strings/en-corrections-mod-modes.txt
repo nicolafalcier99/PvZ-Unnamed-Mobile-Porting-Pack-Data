@@ -1,0 +1,8 @@
+[PVZU_MOD_MODES_BUTTON]
+Unnamed modes
+
+[PVZU_MOD_MODES_TITLE]
+Unnamed Modes
+
+[PVZU_MOD_MODES_BACK]
+Mini-games

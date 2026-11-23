@@ -1,0 +1,23 @@
+{
+	"catapultShots.volleyRoll": 100,
+	"catapultShots.volleyBelow": 35,
+	"catapultShots.volleyShotRoll": 3,
+	"catapultShots.volleyLastCol": 8,
+	"catapultShots.volleyMinBalls": 1,
+	"catapultShots.volleySkipSeeds": [21, 46],
+	"catapultShots.volleySkipModSeeds": [107],
+	"catapultShots.ballTracksBelow": 5,
+	"catapultShots.vaseDamage": 300,
+	"catapultShots.vaseZombieRoll": 33,
+	"catapultShots.vaseZombieReroll": [11, 12, 13, 14, 16, 20, 25],
+	"catapultShots.vaseReflectedFlags": 1,
+	"catapultShots.sprayDamage": 100,
+	"catapultShots.sprayKillRoll": 20,
+	"catapultShots.sprayRateStep": 75,
+	"catapultShots.sprayRateCapExtra": 750,
+	"catapultShots.sprayFoley": 71,
+	"catapultShots.sprayParticle": 88,
+	"catapultShots.sprayParticleDx": 34,
+	"catapultShots.sprayParticleDy": 28,
+	"catapultShots.sprayParticleRenderOrder": 400000
+}

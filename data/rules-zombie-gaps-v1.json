@@ -1,0 +1,20 @@
+{
+	"zombieGapsV1.newspaper.gaspInvincible": 1,
+	"zombieGapsV1.newspaper.burnIsHit": 1,
+	"zombieGapsV1.redEye.readingClearsFlags": 1,
+	"zombieGapsV1.redEye.garlicRipsPaper": 1,
+	"zombieGapsV1.knife.biteConditions": 1,
+	"zombieGapsV1.moonwalker.refusesFreeze": 1,
+	"zombieGapsV1.moonwalker.lethalMarginHp": 200,
+	"zombieGapsV1.moonwalker.biteRestartsSummon": 1,
+	"zombieGapsV1.moonwalker.burnIsHit": 1,
+	"zombieGapsV1.roadSign.vaultKeepsSpeed": 1,
+	"zombieGapsV1.staff.summonsWithoutThrow": 1,
+	"zombieGapsV1.garlicPogo.crushesPlants": 1,
+	"zombieGapsV1.garlicPogo.firstLandNoYucky": 1,
+	"zombieGapsV1.green.biteTypeMul": 7,
+	"zombieGapsV1.green.largeSunAt": 75,
+	"zombieGapsV1.pile.biteCadence": 1,
+	"zombieGapsV1.pile.targetOnlyWhileCarrying": 1,
+	"zombieGapsV1.zamboni.plainVelX": 0.25
+}

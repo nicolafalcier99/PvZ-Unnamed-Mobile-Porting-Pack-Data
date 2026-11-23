@@ -1,0 +1,29 @@
+# Every language: Unnamed files NOT served (vanilla main.pak used instead). One path per line, relative to assets/.
+# Rule: the file only fits Unnamed's own exe layout (1067-wide screen, its own resources.xml), not the GOTY engine.
+# Merged with overlay-en-skip.txt in English mode (Startup.cpp -> LoadOverlaySkipLists). Written 2026-11-22.
+
+# Seed packet backgrounds: Unnamed's sheet has 13 cells (its resources.xml: SEEDS cols="13"), GOTY declares cols="9",
+# so every packet was drawn 72 px wide with a slice of the next cell (the report "piece of a card"). Cells 0-8 are
+# pixel-identical to vanilla; cells 9-12 (green/purple brain, tan, red) are for Unnamed packets not ported yet.
+images/seeds.png
+
+# Widened menu backs (1068 x 600): the vanilla 800 layout sits at x 134 inside (Unnamed draws them at -134). Drawn at
+# x 0 in our 800-wide screens every box moved 134 px right of its text (the report "menu text runs out of the box").
+images/titlescreen.jpg
+images/Almanac_IndexBack.jpg
+images/Almanac_PlantBack.jpg
+images/Almanac_ZombieBack.jpg
+images/Challenge_Background.jpg
+images/Background_Greenhouse.jpg
+images/Background_MushroomGarden.jpg
+images/aquarium1.jpg
+reanim/tree_bg.jpg
+
+# Shop: widened backs (vanilla twins are .jpg, so skipping the .png falls back to them) and the car redrawn for the
+# widened shop (800 wide, vanilla 604; night window overlays resized to match).
+images/Store_Background.png
+images/Store_BackgroundNight.png
+images/Store_Car.png
+images/Store_CarClosed.png
+images/Store_Car_night.png
+images/Store_CarClosed_night.png

@@ -1,0 +1,12 @@
+# Never commit game files (EA or Unnamed as shipped)
+*.pak
+*.exe
+*.dll
+*.png
+*.jpg
+*.ogg
+*.mp3
+*.reanim
+*.compiled
+assets/
+.claude/

@@ -1,0 +1,15 @@
+{
+	"laterLevels.lastVanillaLevel": 50,
+	"laterLevels.finalLevel": 73,
+	"laterLevels.allowTableIndexAbove": 0,
+	"laterLevels.stageAreaMax": 8,
+	"laterLevels.skip.needsFinishedAdventure": 1,
+	"laterLevels.skip.min": 1,
+	"laterLevels.skip.max": 71,
+	"laterLevels.skip.bigStep": 10,
+	"laterLevels.skip.smallStep": 1,
+	"laterLevels.skip.longPressTicks": 50,
+	"laterLevels.rows.6": [1, 1, 1, 1, 1, 0],
+	"laterLevels.rows.8": [1, 2, 2, 2, 1, 0],
+	"laterLevels.roofBackgrounds": [7]
+}

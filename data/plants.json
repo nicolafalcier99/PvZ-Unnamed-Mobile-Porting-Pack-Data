@@ -1,0 +1,108 @@
+{
+	"BLOVER": {
+		"refreshTime": 1000,
+		"seedCost": 150
+	},
+	"CACTUS": {
+		"seedCost": 175
+	},
+	"CATTAIL": {
+		"seedCost": 200
+	},
+	"DOOMSHROOM": {
+		"seedCost": 150
+	},
+	"EXPLODE_O_NUT": {
+		"seedCost": 50
+	},
+	"FLOWERPOT": {
+		"refreshTime": 500
+	},
+	"FUMESHROOM": {
+		"seedCost": 100
+	},
+	"GARLIC": {
+		"refreshTime": 1200,
+		"seedCost": 100
+	},
+	"GIANT_WALLNUT": {
+		"seedCost": 50
+	},
+	"GLOOMSHROOM": {
+		"seedCost": 125
+	},
+	"GOLD_MAGNET": {
+		"refreshTime": 1800,
+		"seedCost": 100
+	},
+	"GRAVEBUSTER": {
+		"seedCost": 50
+	},
+	"HYPNOSHROOM": {
+		"seedCost": 100
+	},
+	"LEFTPEATER": {
+		"seedCost": 75
+	},
+	"LILYPAD": {
+		"refreshTime": 500
+	},
+	"MAGNETSHROOM": {
+		"seedCost": 125
+	},
+	"MARIGOLD": {
+		"refreshTime": 6000,
+		"seedCost": 150
+	},
+	"MELONPULT": {
+		"launchRate": 225
+	},
+	"PLANTERN": {
+		"refreshTime": 3600,
+		"seedCost": 150
+	},
+	"POTATOMINE": {
+		"seedCost": 50
+	},
+	"PUMPKINSHELL": {
+		"refreshTime": 2400,
+		"seedCost": 200
+	},
+	"SCAREDYSHROOM": {
+		"seedCost": 75
+	},
+	"SPIKEROCK": {
+		"seedCost": 150
+	},
+	"SPIKEWEED": {
+		"seedCost": 125
+	},
+	"SPLITPEA": {
+		"seedCost": 175
+	},
+	"SPROUT": {
+		"refreshTime": 900,
+		"seedCost": 75
+	},
+	"STARFRUIT": {
+		"launchRate": 250,
+		"refreshTime": 2500,
+		"seedCost": 175
+	},
+	"TALLNUT": {
+		"refreshTime": 2400,
+		"seedCost": 150
+	},
+	"TANGLEKELP": {
+		"seedCost": 50
+	},
+	"THREEPEATER": {
+		"seedCost": 350
+	},
+	"WALLNUT": {
+		"refreshTime": 2400
+	},
+	"WINTERMELON": {
+		"launchRate": 225
+	}
+}

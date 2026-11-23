@@ -1,0 +1,43 @@
+{
+	"BUNGEE": {
+		"zombieValue": 2
+	},
+	"CATAPULT": {
+		"zombieValue": 3
+	},
+	"DANCER": {
+		"pickWeight": 2000,
+		"zombieValue": 3
+	},
+	"FOOTBALL": {
+		"zombieValue": 5
+	},
+	"GARGANTUAR": {
+		"zombieValue": 6
+	},
+	"GATLING_HEAD": {
+		"zombieValue": 5
+	},
+	"JACK_IN_THE_BOX": {
+		"pickWeight": 1500,
+		"zombieValue": 2
+	},
+	"LADDER": {
+		"pickWeight": 2000,
+		"zombieValue": 3
+	},
+	"NEWSPAPER": {
+		"pickWeight": 3000
+	},
+	"POGO": {
+		"zombieValue": 2
+	},
+	"POLEVAULTER": {
+		"pickWeight": 3000,
+		"zombieValue": 3
+	},
+	"ZAMBONI": {
+		"pickWeight": 1000,
+		"zombieValue": 5
+	}
+}

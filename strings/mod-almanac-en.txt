@@ -1,0 +1,339 @@
+# Unnamed's 26 mod-only plants: the Almanac's "More plants" pages and the short hints on the lawn (feature modAlmanac,
+# a port addition: the mod itself has no Almanac pages for them). Edit freely. Format: a [KEY] line, then the text.
+# Numbers follow what the port does (rules in data/rules-mod-plants.json, evidence in SOURCES-mod-plants.md).
+#   MOD_PLANT_0x.._DESCRIPTION   Almanac page text, with the game's colour codes: {KEYWORD} brown, {STAT} red,
+#                                {NORMAL} blue-grey, {SHORTLINE} a small gap. ({FLAVOR} joins lines into one paragraph.)
+#   MOD_PLANT_0x.._HOW_TO_USE    Almanac page, one line
+#   MOD_HINT_PLANTED_0x..        lawn hint, once per level, when you plant it
+#   MOD_HINT_SHADOW_0x..         lawn hint instead, when it is planted without enough Moonflowers for its shadow state
+#   MOD_HINT_TAP_0x..            lawn hint when you tap it and it cannot act
+#   MOD_HINT_REFUSED_0x..        lawn hint instead of the Coffee Bean message when it cannot be planted there
+# Delete a hint's text (or set modAlmanac.hints to 0 in data/rules-mod-almanac.json) to switch it off.
+
+[MOD_ALMANAC_MORE_PLANTS]
+MORE PLANTS
+
+[MOD_ALMANAC_BACK]
+FIRST PLANTS
+
+[MOD_ALMANAC_HOW_TO_USE]
+How to use:
+
+[MOD_ALMANAC_SECONDS]
+s
+
+[MOD_PLANT_0x50_DESCRIPTION]
+{KEYWORD}Damage:{STAT} 20, slows
+{SHORTLINE}
+{KEYWORD}Shoots a slowing pea every 2 seconds.
+In shadow state it fires a shadow beam instead: 30 damage to every zombie ahead in its row, and slows them.
+
+[MOD_PLANT_0x50_HOW_TO_USE]
+Plant a Moonflower next to it (diagonals count) to give it shadow state.
+
+[MOD_PLANT_0x51_DESCRIPTION]
+{KEYWORD}Sun:{STAT} 40 every 24 s
+{SHORTLINE}
+{KEYWORD}Drops a sun and a small sun about every 24 seconds.
+In shadow state it drops 65 sun, and 1 time in 5 a free sun-plant card instead of the big sun.
+
+[MOD_PLANT_0x51_HOW_TO_USE]
+Plant it early like a Sunflower; a Moonflower next to it makes it give more.
+
+[MOD_PLANT_0x52_DESCRIPTION]
+{KEYWORD}Damage:{STAT} huge, then 250 per shard
+{SHORTLINE}
+{KEYWORD}Blows up like a Cherry Bomb, then throws 6 shards up, down and on the diagonals (250 damage to the first zombie each one hits).
+A spinning core stays behind: it hits the first zombie that walks into it, or becomes a Cherry Bomb 14 seconds later.
+
+[MOD_PLANT_0x52_HOW_TO_USE]
+Plant it in the middle of a group of zombies, like a Cherry Bomb.
+
+[MOD_PLANT_0x53_DESCRIPTION]
+{KEYWORD}Damage:{STAT} 1800 per hit
+{SHORTLINE}
+{KEYWORD}Rolls across the lawn like a bowling nut, on any level, bouncing between rows and knocking zombies down (less against helmets and shields).
+Zombies never eat it.
+
+[MOD_PLANT_0x53_HOW_TO_USE]
+Plant it near the left end of a row with zombies: it starts rolling at once.
+
+[MOD_PLANT_0x55_DESCRIPTION]
+{KEYWORD}Damage:{STAT} 20 per ice pea
+{SHORTLINE}
+{KEYWORD}Sprays 500 ice peas in a wide fan for 5 seconds, then vanishes.
+While it stands, every pea on the lawn becomes an ice pea.
+When it vanishes, all your Peashooters turn into Snow Peas.
+
+[MOD_PLANT_0x55_HOW_TO_USE]
+Plant it when many zombies come at once; plant Peashooters first if you want them upgraded.
+
+[MOD_PLANT_0x56_DESCRIPTION]
+{KEYWORD}Damage:{STAT} 100 + health/15 (max 600)
+{SHORTLINE}
+{KEYWORD}Burns every zombie from just behind it to 3 squares ahead, in 3 rows. The fire thaws frozen and slowed zombies.
+In shadow state it also weakens them (double damage for 4 s).
+
+[MOD_PLANT_0x56_HOW_TO_USE]
+Plant it in a middle row; its fire undoes your ice plants' slowing.
+
+[MOD_PLANT_0x57_DESCRIPTION]
+{KEYWORD}Damage:{STAT} 20 per pea
+{SHORTLINE}
+{KEYWORD}Shoots 2 peas at a time.
+1 pea in 10 knocks the zombie back (40 damage); 1 in 10 poisons it (15 damage, then 500 more over 5 seconds).
+
+[MOD_PLANT_0x57_HOW_TO_USE]
+Plant it like a Repeater.
+
+[MOD_PLANT_0x58_DESCRIPTION]
+{KEYWORD}Poison:{STAT} 20 every 0.64 s
+{SHORTLINE}
+{KEYWORD}Does not attack. A zombie that eats it is poisoned for the rest of the level.
+In shadow state the poison skips helmets and shields and hurts the zombie itself.
+
+[MOD_PLANT_0x58_HOW_TO_USE]
+Plant it where zombies will eat it; a Moonflower next to it makes the poison skip armour.
+
+[MOD_PLANT_0x59_DESCRIPTION]
+{KEYWORD}Sun:{STAT} 150 at once
+{SHORTLINE}
+{KEYWORD}Costs no sun. Drops 3 big suns in one and a half seconds, then vanishes.
+Its card starts each level recharging.
+
+[MOD_PLANT_0x59_HOW_TO_USE]
+Plant it on any free square as soon as it is ready.
+
+[MOD_PLANT_0x5b_DESCRIPTION]
+{KEYWORD}Gives:{STAT} a free seed card
+{SHORTLINE}
+{KEYWORD}Goes on top of one of your plants. A few seconds later it eats that plant and drops the plant's seed card.
+Tap the card to plant it again for free.
+
+[MOD_PLANT_0x5b_HOW_TO_USE]
+Plant it on top of any of your plants; a few seconds later it eats that plant and drops its card for free.
+
+[MOD_PLANT_0x5c_DESCRIPTION]
+{KEYWORD}Effect:{STAT} the eater becomes an Imp
+{SHORTLINE}
+{KEYWORD}The zombie that finishes eating it turns into an Imp with no armour and at most 270 health. The Imp still fights you.
+Bosses are not changed.
+
+[MOD_PLANT_0x5c_HOW_TO_USE]
+Plant it in front of big zombies such as Gargantuars or Football Zombies.
+
+[MOD_PLANT_0x5d_DESCRIPTION]
+{KEYWORD}Damage:{STAT} 300 to 550 per shot
+{SHORTLINE}
+{KEYWORD}Never shoots by itself. Each tap costs 50 sun and fires a prism beam along its row.
+The beam does 300 damage, plus 1 for every 4 sun you still have (up to 550).
+
+[MOD_PLANT_0x5d_HOW_TO_USE]
+Tap it to fire when a strong zombie is in its row; more sun saved means a stronger shot.
+
+[MOD_PLANT_0x67_DESCRIPTION]
+{KEYWORD}Toughness:{STAT} 8000
+{SHORTLINE}
+{KEYWORD}When zombies have bitten 1500 health off it, then every 1200 more, a hypnotised Newspaper, Football Zombie or Gargantuar rises to fight for you.
+In shadow state it heals, hurts biters and calls a Gargantuar.
+
+[MOD_PLANT_0x67_HOW_TO_USE]
+Plant it at the front; 2 Moonflowers next to it (a shadowed one counts 2) give it shadow state.
+
+[MOD_PLANT_0x69_DESCRIPTION]
+{KEYWORD}Sun:{STAT} 15 every 24 s
+{SHORTLINE}
+{KEYWORD}Gives shadow state to the shadow plants in the 8 squares around it: Shadow Peashooter, Primal Sunflower, Toxic Shadow-shroom, Fire-dragon Grass, Charmed Tall-nut, Dream Starfruit, Dusk-pult.
+With 3 shadow plants around it, it is shadowed too: 25 sun, and it counts as 2.
+
+[MOD_PLANT_0x69_HOW_TO_USE]
+Plant it in the middle of your shadow plants.
+
+[MOD_PLANT_0x6b_DESCRIPTION]
+{KEYWORD}Effect:{STAT} once, the whole lawn
+{SHORTLINE}
+{KEYWORD}Half a second after you plant it, every zombie on the lawn goes back to the right edge, but all of them are healed to full health.
+Bosses are not affected. Zombies ignore it.
+
+[MOD_PLANT_0x6b_HOW_TO_USE]
+Plant it when zombies get close to your house; it works once.
+
+[MOD_PLANT_0x6d_DESCRIPTION]
+{KEYWORD}Damage:{STAT} 17 to 27 per star
+{SHORTLINE}
+{KEYWORD}Shoots 5 stars in changing colours. Blue may freeze. Red pierces 5 and may knock off helmets. Purple may hypnotise. Grey pierces 3 and weakens. Green may blow zombies away.
+In shadow state its stars chase zombies.
+
+[MOD_PLANT_0x6d_HOW_TO_USE]
+Plant it mid-lawn; 3 Moonflowers next to it (a shadowed one counts 2) give it shadow state.
+
+[MOD_PLANT_0x6e_DESCRIPTION]
+{KEYWORD}Toughness:{STAT} 4000
+{SHORTLINE}
+{KEYWORD}A Pumpkin that stops the Zomboni from freezing the plant inside it.
+It cannot thaw a plant that is already frozen.
+
+[MOD_PLANT_0x6e_HOW_TO_USE]
+Plant it over a plant in a row where a Zomboni will drive.
+
+[MOD_PLANT_0x70_DESCRIPTION]
+{KEYWORD}Damage:{STAT} 40, splash 13
+{SHORTLINE}
+{KEYWORD}Lobs dusk cabbages. Each one splashes 13 damage on the zombies around it in 3 rows, pushes them back a little and weakens them for 2 seconds (double damage).
+In shadow state it also lobs at the rows above and below.
+
+[MOD_PLANT_0x70_HOW_TO_USE]
+Plant it behind your wall; a Moonflower next to it lets it hit 3 rows.
+
+[MOD_PLANT_0x72_DESCRIPTION]
+{KEYWORD}Damage:{STAT} 40
+{SHORTLINE}
+{KEYWORD}Lobs butter every time. Each hit holds the zombie in place for 4 more seconds.
+
+[MOD_PLANT_0x72_HOW_TO_USE]
+Plant it behind your wall to keep zombies stuck in front of it.
+
+[MOD_PLANT_0x73_DESCRIPTION]
+{KEYWORD}Effect:{STAT} wakes the 3x3 around it
+{SHORTLINE}
+{KEYWORD}Goes on top of any plant. Wakes up every sleeping plant in the 8 squares around it and its own, then crumbles and heals the plant under it by 30% of its health (up to 300).
+
+[MOD_PLANT_0x73_HOW_TO_USE]
+Plant it on a plant in the middle of a group of sleeping mushrooms.
+
+[MOD_PLANT_0x75_DESCRIPTION]
+{KEYWORD}Effect:{STAT} bounces zombie shots
+{SHORTLINE}
+{KEYWORD}Zombie shots (peas, basketballs, vases) flying at it in its row and the rows above and below bounce back at the zombies.
+Each bounce costs it a little health.
+
+[MOD_PLANT_0x75_HOW_TO_USE]
+Plant it in front of the plants you want to keep safe from zombies that shoot or throw.
+
+[MOD_PLANT_0x76_DESCRIPTION]
+{KEYWORD}Gives:{STAT} a seed card every 24 s
+{SHORTLINE}
+{KEYWORD}About every 24 seconds it drops a random seed card: any plant except the Loaded Cannon.
+Tap the card to plant it for free. It stops after the last wave, like a Marigold.
+
+[MOD_PLANT_0x76_HOW_TO_USE]
+Plant it early in a safe square and pick up the cards it drops.
+
+[MOD_PLANT_0x78_DESCRIPTION]
+{KEYWORD}Damage:{STAT} 500 every 5 s
+{SHORTLINE}
+{KEYWORD}Every 5 seconds it hits the toughest zombie to its right, in any row, for 500 damage. No bullet flies: a red crosshair marks its target.
+It never picks a boss.
+
+[MOD_PLANT_0x78_HOW_TO_USE]
+Plant it anywhere; it aims by itself.
+
+[MOD_PLANT_0x7a_DESCRIPTION]
+{KEYWORD}Damage:{STAT} 12 to 56 per puff
+{SHORTLINE}
+{KEYWORD}Fumes around itself like a Gloom-shroom. It takes fire or ice after 2 s, then every 8 s; its last 3 elements decide the attack. 3 fire: 56 damage, sometimes knocks off armour. 3 ice: slows, sometimes freezes. 2 fire + 1 ice: 12 damage in a 5x5 area. 2 ice + 1 fire: heals itself.
+
+[MOD_PLANT_0x7a_HOW_TO_USE]
+Tap it to switch the element it takes next (blue means ice).
+
+[MOD_PLANT_0x7b_DESCRIPTION]
+{KEYWORD}Damage:{STAT} varies
+{SHORTLINE}
+{KEYWORD}Fires a random homing shot at any zombie on the lawn: pea, snow pea, cabbage, melon, star, cob, butter, prism beam and more.
+
+[MOD_PLANT_0x7b_HOW_TO_USE]
+Plant it on any free square; it finds targets on the whole lawn.
+
+[MOD_PLANT_0x7f_DESCRIPTION]
+{KEYWORD}Damage:{STAT} up to 3000 (cob), 3600 (blast)
+{SHORTLINE}
+{KEYWORD}A Cob Cannon that never reloads by itself. A Kernel-pult card loads a strong cob; a Doom-shroom card sets off a lawn-wide blast at once (no crater, clears every grave). The card used recharges 60 s longer.
+
+[MOD_PLANT_0x7f_HOW_TO_USE]
+Plant it on two free squares; drop a Kernel-pult card on it, tap it, then tap the target. Reload after every shot.
+
+# --- lawn hints (one short line each: 56 characters at most, so they fit the 800-wide screen too) ---
+
+[MOD_HINT_TAP_0x7f]
+Drop a Kernel-pult or Doom-shroom card on it to load it
+
+[MOD_HINT_PLANTED_0x7f]
+Load it: drop a Kernel-pult or Doom-shroom card on it
+
+[MOD_HINT_REFUSED_0x5b]
+Plant the Magic Devourer on top of one of your plants
+
+[MOD_HINT_PLANTED_0x5b]
+It will eat this plant and drop its card for you
+
+[MOD_HINT_REFUSED_0x73]
+Put the Strong Coffee Bean on top of one of your plants
+
+[MOD_HINT_TAP_0x5d]
+The Prism-shroom needs 50 sun for each shot
+
+[MOD_HINT_PLANTED_0x5d]
+Tap the Prism-shroom to pay 50 sun and fire
+
+[MOD_HINT_PLANTED_0x7a]
+Tap the Element-shroom to switch fire and ice
+
+[MOD_HINT_PLANTED_0x69]
+Moonflowers give shadow power to shadow plants nearby
+
+[MOD_HINT_SHADOW_0x50]
+A Moonflower next to it turns its peas into a beam
+
+[MOD_HINT_SHADOW_0x51]
+A Moonflower next to it makes it give more sun
+
+[MOD_HINT_PLANTED_0x58]
+The zombie that eats it is poisoned
+
+[MOD_HINT_SHADOW_0x58]
+Its eater is poisoned; a Moonflower makes it skip armour
+
+[MOD_HINT_SHADOW_0x56]
+Needs 3 Moonflowers next to it for shadow power
+
+[MOD_HINT_SHADOW_0x6d]
+Needs 3 Moonflowers next to it for shadow power
+
+[MOD_HINT_PLANTED_0x67]
+Bites on it call hypnotised zombies to help you
+
+[MOD_HINT_SHADOW_0x67]
+Bites call helpers; 2 Moonflowers add shadow power
+
+[MOD_HINT_SHADOW_0x70]
+A Moonflower next to it lets it lob at 3 rows
+
+[MOD_HINT_PLANTED_0x6b]
+Rewind Grass sends zombies back but heals them fully
+
+[MOD_HINT_PLANTED_0x59]
+It gives 150 sun, then vanishes
+
+[MOD_HINT_PLANTED_0x55]
+Lasts 5 s, then turns your Peashooters into Snow Peas
+
+[MOD_HINT_PLANTED_0x52]
+Its spinning core becomes a Cherry Bomb 14 s later
+
+[MOD_HINT_PLANTED_0x53]
+The Bowling Wall-nut rolls down the lawn right away
+
+[MOD_HINT_PLANTED_0x5c]
+The zombie that eats it turns into an Imp
+
+[MOD_HINT_PLANTED_0x76]
+It drops seed cards: tap them to plant for free
+
+[MOD_HINT_PLANTED_0x6e]
+The Zomboni can't freeze the plant inside it
+
+[MOD_HINT_PLANTED_0x75]
+It bounces zombie shots back, losing a little health
+
+[MOD_HINT_PLANTED_0x78]
+No bullet: it hits the crosshair target every 5 s

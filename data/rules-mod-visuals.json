@@ -1,0 +1,11 @@
+{
+	"modVisuals.infoTooltip": 1,
+	"modVisuals.infoButtons": 2,
+	"modVisuals.infoSkipMode": 21,
+	"modVisuals.infoHoldTicks": 40,
+	"modVisuals.peashooterLayers": 1,
+	"modVisuals.sniperAim": 1,
+	"modVisuals.sniperMark": 1,
+	"modVisuals.elementIcons": 1,
+	"modVisuals.packetPlantCels": 0
+}

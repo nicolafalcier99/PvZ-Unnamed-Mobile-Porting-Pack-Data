@@ -1,0 +1,11 @@
+{
+	"tallnutZombie.regen.periodCs": 100,
+	"tallnutZombie.regen.hp": 10,
+	"tallnutZombie.regen.undamagedExtraHp": 10,
+	"tallnutZombie.odd.summonPeriodCs": 1200,
+	"tallnutZombie.odd.summonAtCs": 600,
+	"tallnutZombie.odd.summonRoll": 8,
+	"tallnutZombie.odd.gargantuarBelow": 5,
+	"tallnutZombie.odd.riseCounterCs": 50,
+	"tallnutZombie.odd.alpha": 176
+}

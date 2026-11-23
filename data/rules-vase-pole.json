@@ -1,0 +1,11 @@
+{
+	"vasePole.enabled": 1,
+	"vasePole.colDivisor": 80,
+	"vasePole.zombieRollRange": 33,
+	"vasePole.zombieRejectMask": 35223552,
+	"vasePole.catchFlags": 129,
+	"vasePole.catchFlagsHypnotised": 1,
+	"vasePole.potState": 5,
+	"vasePole.potSetsSide": 1,
+	"vasePole.awardOutsideVasebreaker": 0
+}

@@ -1,0 +1,513 @@
+{
+	"plants": {
+		"BLOVER": {
+			"launchRate": 0,
+			"refreshTime": 750,
+			"seedCost": 100
+		},
+		"CABBAGEPULT": {
+			"launchRate": 300,
+			"refreshTime": 750,
+			"seedCost": 100
+		},
+		"CACTUS": {
+			"launchRate": 150,
+			"refreshTime": 750,
+			"seedCost": 125
+		},
+		"CATTAIL": {
+			"launchRate": 150,
+			"refreshTime": 5000,
+			"seedCost": 225
+		},
+		"CHERRYBOMB": {
+			"launchRate": 0,
+			"refreshTime": 5000,
+			"seedCost": 150
+		},
+		"CHOMPER": {
+			"launchRate": 0,
+			"refreshTime": 750,
+			"seedCost": 150
+		},
+		"COBCANNON": {
+			"launchRate": 600,
+			"refreshTime": 5000,
+			"seedCost": 500
+		},
+		"DOOMSHROOM": {
+			"launchRate": 0,
+			"refreshTime": 5000,
+			"seedCost": 125
+		},
+		"EXPLODE_O_NUT": {
+			"launchRate": 0,
+			"refreshTime": 3000,
+			"seedCost": 0
+		},
+		"FLOWERPOT": {
+			"launchRate": 0,
+			"refreshTime": 750,
+			"seedCost": 25
+		},
+		"FUMESHROOM": {
+			"launchRate": 150,
+			"refreshTime": 750,
+			"seedCost": 75
+		},
+		"GARLIC": {
+			"launchRate": 0,
+			"refreshTime": 750,
+			"seedCost": 50
+		},
+		"GATLINGPEA": {
+			"launchRate": 150,
+			"refreshTime": 5000,
+			"seedCost": 250
+		},
+		"GIANT_WALLNUT": {
+			"launchRate": 0,
+			"refreshTime": 3000,
+			"seedCost": 0
+		},
+		"GLOOMSHROOM": {
+			"launchRate": 200,
+			"refreshTime": 5000,
+			"seedCost": 150
+		},
+		"GOLD_MAGNET": {
+			"launchRate": 0,
+			"refreshTime": 5000,
+			"seedCost": 50
+		},
+		"GRAVEBUSTER": {
+			"launchRate": 0,
+			"refreshTime": 750,
+			"seedCost": 75
+		},
+		"HYPNOSHROOM": {
+			"launchRate": 0,
+			"refreshTime": 3000,
+			"seedCost": 75
+		},
+		"ICESHROOM": {
+			"launchRate": 0,
+			"refreshTime": 5000,
+			"seedCost": 75
+		},
+		"IMITATER": {
+			"launchRate": 0,
+			"refreshTime": 750,
+			"seedCost": 0
+		},
+		"INSTANT_COFFEE": {
+			"launchRate": 0,
+			"refreshTime": 750,
+			"seedCost": 75
+		},
+		"JALAPENO": {
+			"launchRate": 0,
+			"refreshTime": 5000,
+			"seedCost": 125
+		},
+		"KERNELPULT": {
+			"launchRate": 300,
+			"refreshTime": 750,
+			"seedCost": 100
+		},
+		"LEFTPEATER": {
+			"launchRate": 150,
+			"refreshTime": 750,
+			"seedCost": 200
+		},
+		"LILYPAD": {
+			"launchRate": 0,
+			"refreshTime": 750,
+			"seedCost": 25
+		},
+		"MAGNETSHROOM": {
+			"launchRate": 0,
+			"refreshTime": 750,
+			"seedCost": 100
+		},
+		"MARIGOLD": {
+			"launchRate": 2500,
+			"refreshTime": 3000,
+			"seedCost": 50
+		},
+		"MELONPULT": {
+			"launchRate": 300,
+			"refreshTime": 750,
+			"seedCost": 300
+		},
+		"PEASHOOTER": {
+			"launchRate": 150,
+			"refreshTime": 750,
+			"seedCost": 100
+		},
+		"PLANTERN": {
+			"launchRate": 2500,
+			"refreshTime": 3000,
+			"seedCost": 25
+		},
+		"POTATOMINE": {
+			"launchRate": 0,
+			"refreshTime": 3000,
+			"seedCost": 25
+		},
+		"PUFFSHROOM": {
+			"launchRate": 150,
+			"refreshTime": 750,
+			"seedCost": 0
+		},
+		"PUMPKINSHELL": {
+			"launchRate": 0,
+			"refreshTime": 3000,
+			"seedCost": 125
+		},
+		"REPEATER": {
+			"launchRate": 150,
+			"refreshTime": 750,
+			"seedCost": 200
+		},
+		"SCAREDYSHROOM": {
+			"launchRate": 150,
+			"refreshTime": 750,
+			"seedCost": 25
+		},
+		"SEASHROOM": {
+			"launchRate": 150,
+			"refreshTime": 3000,
+			"seedCost": 0
+		},
+		"SNOWPEA": {
+			"launchRate": 150,
+			"refreshTime": 750,
+			"seedCost": 175
+		},
+		"SPIKEROCK": {
+			"launchRate": 0,
+			"refreshTime": 5000,
+			"seedCost": 125
+		},
+		"SPIKEWEED": {
+			"launchRate": 0,
+			"refreshTime": 750,
+			"seedCost": 100
+		},
+		"SPLITPEA": {
+			"launchRate": 150,
+			"refreshTime": 750,
+			"seedCost": 125
+		},
+		"SPROUT": {
+			"launchRate": 0,
+			"refreshTime": 3000,
+			"seedCost": 0
+		},
+		"SQUASH": {
+			"launchRate": 0,
+			"refreshTime": 3000,
+			"seedCost": 50
+		},
+		"STARFRUIT": {
+			"launchRate": 150,
+			"refreshTime": 750,
+			"seedCost": 125
+		},
+		"SUNFLOWER": {
+			"launchRate": 2500,
+			"refreshTime": 750,
+			"seedCost": 50
+		},
+		"SUNSHROOM": {
+			"launchRate": 2500,
+			"refreshTime": 750,
+			"seedCost": 25
+		},
+		"TALLNUT": {
+			"launchRate": 0,
+			"refreshTime": 3000,
+			"seedCost": 125
+		},
+		"TANGLEKELP": {
+			"launchRate": 0,
+			"refreshTime": 3000,
+			"seedCost": 25
+		},
+		"THREEPEATER": {
+			"launchRate": 150,
+			"refreshTime": 750,
+			"seedCost": 325
+		},
+		"TORCHWOOD": {
+			"launchRate": 0,
+			"refreshTime": 750,
+			"seedCost": 175
+		},
+		"TWINSUNFLOWER": {
+			"launchRate": 2500,
+			"refreshTime": 5000,
+			"seedCost": 150
+		},
+		"UMBRELLA": {
+			"launchRate": 0,
+			"refreshTime": 750,
+			"seedCost": 100
+		},
+		"WALLNUT": {
+			"launchRate": 0,
+			"refreshTime": 3000,
+			"seedCost": 50
+		},
+		"WINTERMELON": {
+			"launchRate": 300,
+			"refreshTime": 5000,
+			"seedCost": 200
+		}
+	},
+	"projectiles": {
+		"BASKETBALL": {
+			"damage": 75
+		},
+		"BUTTER": {
+			"damage": 40
+		},
+		"CABBAGE": {
+			"damage": 40
+		},
+		"COBBIG": {
+			"damage": 300
+		},
+		"FIREBALL": {
+			"damage": 40
+		},
+		"KERNEL": {
+			"damage": 20
+		},
+		"MELON": {
+			"damage": 80
+		},
+		"PEA": {
+			"damage": 20
+		},
+		"PUFF": {
+			"damage": 20
+		},
+		"SNOWPEA": {
+			"damage": 20
+		},
+		"SPIKE": {
+			"damage": 20
+		},
+		"STAR": {
+			"damage": 20
+		},
+		"WINTERMELON": {
+			"damage": 80
+		},
+		"ZOMBIE_PEA": {
+			"damage": 20
+		}
+	},
+	"zombies": {
+		"BACKUP_DANCER": {
+			"firstAllowedWave": 1,
+			"pickWeight": 0,
+			"startingLevel": 18,
+			"zombieValue": 1
+		},
+		"BALLOON": {
+			"firstAllowedWave": 10,
+			"pickWeight": 2000,
+			"startingLevel": 33,
+			"zombieValue": 2
+		},
+		"BOBSLED": {
+			"firstAllowedWave": 10,
+			"pickWeight": 2000,
+			"startingLevel": 26,
+			"zombieValue": 3
+		},
+		"BOSS": {
+			"firstAllowedWave": 1,
+			"pickWeight": 0,
+			"startingLevel": 50,
+			"zombieValue": 10
+		},
+		"BUNGEE": {
+			"firstAllowedWave": 10,
+			"pickWeight": 1000,
+			"startingLevel": 41,
+			"zombieValue": 3
+		},
+		"CATAPULT": {
+			"firstAllowedWave": 10,
+			"pickWeight": 1500,
+			"startingLevel": 46,
+			"zombieValue": 5
+		},
+		"DANCER": {
+			"firstAllowedWave": 5,
+			"pickWeight": 1000,
+			"startingLevel": 18,
+			"zombieValue": 5
+		},
+		"DIGGER": {
+			"firstAllowedWave": 10,
+			"pickWeight": 1000,
+			"startingLevel": 36,
+			"zombieValue": 4
+		},
+		"DOLPHIN_RIDER": {
+			"firstAllowedWave": 10,
+			"pickWeight": 1500,
+			"startingLevel": 28,
+			"zombieValue": 3
+		},
+		"DOOR": {
+			"firstAllowedWave": 5,
+			"pickWeight": 3500,
+			"startingLevel": 13,
+			"zombieValue": 4
+		},
+		"DUCKY_TUBE": {
+			"firstAllowedWave": 5,
+			"pickWeight": 0,
+			"startingLevel": 21,
+			"zombieValue": 1
+		},
+		"FLAG": {
+			"firstAllowedWave": 1,
+			"pickWeight": 0,
+			"startingLevel": 1,
+			"zombieValue": 1
+		},
+		"FOOTBALL": {
+			"firstAllowedWave": 5,
+			"pickWeight": 2000,
+			"startingLevel": 16,
+			"zombieValue": 7
+		},
+		"GARGANTUAR": {
+			"firstAllowedWave": 15,
+			"pickWeight": 1500,
+			"startingLevel": 48,
+			"zombieValue": 10
+		},
+		"GATLING_HEAD": {
+			"firstAllowedWave": 10,
+			"pickWeight": 2000,
+			"startingLevel": 99,
+			"zombieValue": 3
+		},
+		"IMP": {
+			"firstAllowedWave": 1,
+			"pickWeight": 0,
+			"startingLevel": 48,
+			"zombieValue": 10
+		},
+		"JACK_IN_THE_BOX": {
+			"firstAllowedWave": 10,
+			"pickWeight": 1000,
+			"startingLevel": 31,
+			"zombieValue": 3
+		},
+		"JALAPENO_HEAD": {
+			"firstAllowedWave": 10,
+			"pickWeight": 1000,
+			"startingLevel": 99,
+			"zombieValue": 3
+		},
+		"LADDER": {
+			"firstAllowedWave": 10,
+			"pickWeight": 1000,
+			"startingLevel": 43,
+			"zombieValue": 4
+		},
+		"NEWSPAPER": {
+			"firstAllowedWave": 1,
+			"pickWeight": 1000,
+			"startingLevel": 11,
+			"zombieValue": 2
+		},
+		"NORMAL": {
+			"firstAllowedWave": 1,
+			"pickWeight": 4000,
+			"startingLevel": 1,
+			"zombieValue": 1
+		},
+		"PAIL": {
+			"firstAllowedWave": 1,
+			"pickWeight": 3000,
+			"startingLevel": 8,
+			"zombieValue": 4
+		},
+		"PEA_HEAD": {
+			"firstAllowedWave": 1,
+			"pickWeight": 4000,
+			"startingLevel": 99,
+			"zombieValue": 1
+		},
+		"POGO": {
+			"firstAllowedWave": 10,
+			"pickWeight": 1000,
+			"startingLevel": 38,
+			"zombieValue": 4
+		},
+		"POLEVAULTER": {
+			"firstAllowedWave": 5,
+			"pickWeight": 2000,
+			"startingLevel": 6,
+			"zombieValue": 2
+		},
+		"REDEYE_GARGANTUAR": {
+			"firstAllowedWave": 15,
+			"pickWeight": 6000,
+			"startingLevel": 48,
+			"zombieValue": 10
+		},
+		"SNORKEL": {
+			"firstAllowedWave": 10,
+			"pickWeight": 2000,
+			"startingLevel": 23,
+			"zombieValue": 3
+		},
+		"SQUASH_HEAD": {
+			"firstAllowedWave": 10,
+			"pickWeight": 2000,
+			"startingLevel": 99,
+			"zombieValue": 3
+		},
+		"TALLNUT_HEAD": {
+			"firstAllowedWave": 10,
+			"pickWeight": 2000,
+			"startingLevel": 99,
+			"zombieValue": 4
+		},
+		"TRAFFIC_CONE": {
+			"firstAllowedWave": 1,
+			"pickWeight": 4000,
+			"startingLevel": 3,
+			"zombieValue": 2
+		},
+		"WALLNUT_HEAD": {
+			"firstAllowedWave": 1,
+			"pickWeight": 3000,
+			"startingLevel": 99,
+			"zombieValue": 4
+		},
+		"YETI": {
+			"firstAllowedWave": 1,
+			"pickWeight": 1,
+			"startingLevel": 40,
+			"zombieValue": 4
+		},
+		"ZAMBONI": {
+			"firstAllowedWave": 10,
+			"pickWeight": 2000,
+			"startingLevel": 26,
+			"zombieValue": 7
+		}
+	}
+}

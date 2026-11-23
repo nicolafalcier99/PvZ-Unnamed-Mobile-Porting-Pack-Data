@@ -1,0 +1,42 @@
+# Public pack only: names and numbers for the Almanac entries Unnamed adds (the six ZomBotany zombies and the
+# Giga-gargantuar), so the English Almanac does not show "<Missing ...>". The mod's own descriptions are not
+# included; toughness numbers are the port's rules (SOURCES-world7-zombies.md, SOURCES-tallnut-zombie.md).
+
+[PEASHOOTER_ZOMBIE]
+Peashooter Zombie
+
+[WALLNUT_ZOMBIE]
+Wall-nut Zombie
+
+[JALAPENO_ZOMBIE]
+Jalapeno Zombie
+
+[GATLING_PEA_ZOMBIE]
+Gatling Pea Zombie
+
+[SQUASH_ZOMBIE]
+Squash Zombie
+
+[TALLNUT_ZOMBIE]
+Tall-nut Zombie
+
+[PEASHOOTER_ZOMBIE_DESCRIPTION]
+{KEYWORD}Toughness:{STAT} 270+370=640
+
+[WALLNUT_ZOMBIE_DESCRIPTION]
+{KEYWORD}Toughness:{STAT} 270+1600=1870
+
+[JALAPENO_ZOMBIE_DESCRIPTION]
+{KEYWORD}Toughness:{STAT} 870+370+1100=2340
+
+[GATLING_PEA_ZOMBIE_DESCRIPTION]
+{KEYWORD}Toughness:{STAT} 270+1100=1370
+
+[SQUASH_ZOMBIE_DESCRIPTION]
+{KEYWORD}Toughness:{STAT} 270+1100+1100=2470
+
+[TALLNUT_ZOMBIE_DESCRIPTION]
+{KEYWORD}Toughness:{STAT} 270+2400=2670
+
+[REDEYED_GARGANTUAR_DESCRIPTION]
+{KEYWORD}Toughness:{STAT} 6000

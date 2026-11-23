@@ -1,0 +1,23 @@
+{
+	"nightPlants.puff.freezeRollRange": 100,
+	"nightPlants.puff.freezeChanceOffset": 15,
+	"nightPlants.puff.freezeChillCs": 750,
+	"nightPlants.iceTrap.damage": 200,
+	"nightPlants.chill.armBodyDamage": 10,
+	"nightPlants.chill.armDamageFlags": 10,
+	"nightPlants.sunshroom.growCs": 9000,
+	"nightPlants.sunshroom.bonusRollRange": 100,
+	"nightPlants.sunshroom.bonusMaxRoll": 11,
+	"nightPlants.fume.attackWidthPx": 800,
+	"nightPlants.graveBuster.refundCoin": 6,
+	"nightPlants.graveBuster.bonusRollRange": 3,
+	"nightPlants.graveBuster.bonusRoll": 1,
+	"nightPlants.graveBuster.bonusCoin": 4,
+	"nightPlants.hypno.bucketHp": 1200,
+	"nightPlants.hypno.bucketTypesMask": 603979861,
+	"nightPlants.scaredy.hp": 1500,
+	"nightPlants.scaredy.secondShotAtCounter": 25,
+	"nightPlants.doom.radiusPx": 990,
+	"nightPlants.doom.rowRange": 6,
+	"nightPlants.doom.craterCs": 24000
+}

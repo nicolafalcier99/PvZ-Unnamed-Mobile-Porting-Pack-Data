@@ -1,0 +1,947 @@
+{
+	"0x65": {
+		"name": "Art Is an Explosion",
+		"nameZh": "艺术就是爆炸",
+		"background": 1,
+		"waves": 20,
+		"allowed": [
+			"TRAFFIC_CONE",
+			"POLEVAULTER",
+			"DANCER",
+			"DIGGER",
+			"LADDER"
+		],
+		"pail": false,
+		"nameColor": "purple",
+		"status": "built",
+		"key": "artIsAnExplosion",
+		"rules": {
+			"damage": 300,
+			"radius": 100
+		}
+	},
+	"0x66": {
+		"name": "Sun Storm",
+		"nameZh": "阳光风暴",
+		"background": 0,
+		"waves": 30,
+		"allowed": [
+			"TRAFFIC_CONE",
+			"POLEVAULTER",
+			"FOOTBALL",
+			"DANCER",
+			"JACK_IN_THE_BOX",
+			"BALLOON",
+			"GARGANTUAR"
+		],
+		"pail": true,
+		"bannedSeeds": [
+			"SUNFLOWER",
+			"SUNSHROOM",
+			"TWINSUNFLOWER",
+			"SEASHROOM",
+			"PUFFSHROOM"
+		],
+		"nameColor": "red",
+		"status": "built",
+		"key": "sunStorm"
+	},
+	"0x67": {
+		"name": "No Playing in the Water",
+		"nameZh": "请勿戏水",
+		"background": 2,
+		"waves": 20,
+		"allowed": [
+			"TRAFFIC_CONE",
+			"JACK_IN_THE_BOX",
+			"POGO",
+			"LADDER",
+			"CATAPULT"
+		],
+		"pail": true,
+		"bannedSeeds": [
+			"LILYPAD",
+			"TANGLEKELP",
+			"SEASHROOM",
+			"CATTAIL"
+		],
+		"nameColor": "blue",
+		"status": "built",
+		"key": "noPlayingInTheWater"
+	},
+	"0x68": {
+		"name": "War of Attrition",
+		"nameZh": "持久战",
+		"background": 0,
+		"waves": 20,
+		"allowed": [
+			"TRAFFIC_CONE",
+			"DOOR",
+			"DANCER",
+			"LADDER",
+			"GARGANTUAR"
+		],
+		"pail": true,
+		"firstWaveCountdown": 5500,
+		"nameColor": "pulse",
+		"status": "built",
+		"key": "warOfAttrition"
+	},
+	"0x69": {
+		"name": "Visual Disorder",
+		"nameZh": "视觉失调",
+		"background": 0,
+		"waves": 30,
+		"allowed": [
+			"TRAFFIC_CONE",
+			"POLEVAULTER",
+			"DANCER",
+			"TALLNUT_HEAD"
+		],
+		"pail": false,
+		"nameColor": "green",
+		"status": "built",
+		"key": "visualDisorder"
+	},
+	"0x6a": {
+		"name": "Downstream",
+		"nameZh": "顺流",
+		"background": 2,
+		"waves": 30,
+		"allowed": [
+			"TRAFFIC_CONE",
+			"SNORKEL",
+			"NEWSPAPER",
+			"GARGANTUAR"
+		],
+		"pail": true,
+		"nameColor": "pulse",
+		"status": "built",
+		"key": "downstream"
+	},
+	"0x6b": {
+		"name": "Glove War",
+		"nameZh": "手套之战",
+		"background": 0,
+		"waves": 30,
+		"allowed": [
+			"TRAFFIC_CONE",
+			"POLEVAULTER",
+			"FOOTBALL",
+			"DANCER",
+			"JACK_IN_THE_BOX",
+			"DIGGER",
+			"SQUASH_HEAD",
+			"TALLNUT_HEAD"
+		],
+		"pail": true,
+		"nameColor": "pulse",
+		"status": "built",
+		"key": "gloveWar"
+	},
+	"0x6c": {
+		"name": "Zombies, Run Run Run",
+		"nameZh": "僵尸快快快跑",
+		"background": 8,
+		"waves": 30,
+		"allowed": [
+			"DOOR",
+			"DOLPHIN_RIDER",
+			"JACK_IN_THE_BOX",
+			"POGO",
+			"GARGANTUAR"
+		],
+		"pail": false,
+		"nameColor": "red",
+		"status": "built",
+		"key": "zombiesRun"
+	},
+	"0x6d": {
+		"name": "Night Terror",
+		"nameZh": "黑夜惊魂",
+		"background": 1,
+		"waves": 40,
+		"allowed": [
+			"TRAFFIC_CONE",
+			"DOOR"
+		],
+		"pail": true,
+		"graves": 0,
+		"nameColor": "blue",
+		"status": "built",
+		"key": "nightTerror"
+	},
+	"0x6e": {
+		"name": "Little Zombie, Big Trouble",
+		"nameZh": "小僵尸巨麻烦",
+		"background": 0,
+		"waves": 20,
+		"allowed": [
+			"TRAFFIC_CONE",
+			"FOOTBALL",
+			"ZAMBONI",
+			"POGO",
+			"CATAPULT",
+			"PEA_HEAD",
+			"WALLNUT_HEAD",
+			"REDEYE_GARGANTUAR"
+		],
+		"pail": false,
+		"nameColor": "red",
+		"status": "built",
+		"key": "littleZombie"
+	},
+	"0x6f": {
+		"name": "Force-8 Gale",
+		"nameZh": "八级大狂风",
+		"background": 3,
+		"waves": 30,
+		"allowed": [
+			"TRAFFIC_CONE",
+			"POLEVAULTER",
+			"FOOTBALL",
+			"SNORKEL",
+			"ZAMBONI"
+		],
+		"pail": true,
+		"nameColor": "pulse",
+		"status": "built",
+		"key": "force8Gale",
+		"rules": {
+			"fromWave": 8
+		}
+	},
+	"0x70": {
+		"name": "Troops from the Sky",
+		"nameZh": "神兵天降",
+		"background": 4,
+		"waves": 20,
+		"allowed": [
+			"TRAFFIC_CONE",
+			"BUNGEE",
+			"LADDER",
+			"CATAPULT",
+			"GARGANTUAR",
+			"GATLING_HEAD"
+		],
+		"pail": true,
+		"bannedSeeds": [
+			"UMBRELLA"
+		],
+		"nameColor": "red",
+		"status": "built",
+		"key": "troopsFromTheSky"
+	},
+	"0x71": {
+		"name": "The Counter",
+		"nameZh": "The Counter",
+		"background": 6,
+		"waves": 30,
+		"allowed": [
+			"DOOR",
+			"ZAMBONI",
+			"DIGGER",
+			"LADDER",
+			"CATAPULT"
+		],
+		"pail": false,
+		"conveyor": true,
+		"conveyorSeeds": [
+			[
+				"REPEATER",
+				20
+			],
+			[
+				"0x72",
+				20
+			],
+			[
+				"POTATOMINE",
+				9
+			],
+			[
+				"SPIKEWEED",
+				21
+			],
+			[
+				"ICESHROOM",
+				15
+			],
+			[
+				"MAGNETSHROOM",
+				15
+			]
+		],
+		"nameColor": "pulse",
+		"status": "built",
+		"key": "theCounter"
+	},
+	"0x72": {
+		"name": "Lone Wolf",
+		"nameZh": "单枪匹马",
+		"background": 1,
+		"waves": 40,
+		"allowed": [
+			"TRAFFIC_CONE",
+			"DIGGER",
+			"JALAPENO_HEAD",
+			"JACK_IN_THE_BOX",
+			"LADDER",
+			"GARGANTUAR"
+		],
+		"pail": false,
+		"seedSlots": 1,
+		"skySun": false,
+		"firstWaveCountdown": 250,
+		"nameColor": "purple",
+		"status": "built",
+		"key": "loneWolf"
+	},
+	"0x73": {
+		"name": "Seed Slot Crisis",
+		"nameZh": "卡槽危机",
+		"background": 0,
+		"waves": 30,
+		"allowed": [
+			"TRAFFIC_CONE",
+			"POLEVAULTER",
+			"NEWSPAPER",
+			"GARGANTUAR"
+		],
+		"pail": false,
+		"startSun": 1000,
+		"seedSlots": 1,
+		"nameColor": "blue",
+		"status": "built",
+		"key": "seedSlotCrisis"
+	},
+	"0x74": {
+		"name": "Rainy Day",
+		"nameZh": "阴雨天",
+		"background": 2,
+		"waves": 30,
+		"allowed": [
+			"DANCER",
+			"ZAMBONI",
+			"POGO",
+			"LADDER",
+			"CATAPULT"
+		],
+		"pail": true,
+		"skySun": false,
+		"firstWaveCountdown": 5500,
+		"nameColor": "pulse",
+		"status": "built",
+		"key": "rainyDay",
+		"rules": {
+			"white": 100
+		}
+	},
+	"0x75": {
+		"name": "Heisenberg's Zombie",
+		"nameZh": "海森堡的僵尸",
+		"background": 0,
+		"waves": 30,
+		"allowed": [
+			"TRAFFIC_CONE",
+			"POLEVAULTER",
+			"FOOTBALL",
+			"DIGGER",
+			"BUNGEE",
+			"SQUASH_HEAD",
+			"JALAPENO_HEAD"
+		],
+		"pail": true,
+		"nameColor": "purple",
+		"status": "built",
+		"key": "heisenberg"
+	},
+	"0x76": {
+		"name": "Schrödinger's Zombie",
+		"nameZh": "薛定谔的僵尸",
+		"background": 4,
+		"waves": 30,
+		"allowed": [
+			"NEWSPAPER",
+			"DANCER",
+			"LADDER",
+			"GARGANTUAR",
+			"SQUASH_HEAD"
+		],
+		"pail": true,
+		"seedSlots": 9,
+		"chooser": false,
+		"bank": [
+			"FLOWERPOT",
+			"SUNFLOWER",
+			"0x59",
+			"POTATOMINE",
+			"CHERRYBOMB",
+			"JALAPENO",
+			"TALLNUT",
+			"MELONPULT",
+			"BLOVER"
+		],
+		"nameColor": "purple",
+		"status": "built",
+		"key": "schrodinger"
+	},
+	"0x77": {
+		"name": "Upstream",
+		"nameZh": "逆流",
+		"background": 0,
+		"waves": 20,
+		"allowed": [
+			"FOOTBALL",
+			"NEWSPAPER",
+			"JACK_IN_THE_BOX",
+			"DIGGER",
+			"CATAPULT"
+		],
+		"pail": true,
+		"nameColor": "pulse",
+		"status": "built",
+		"key": "upstream"
+	},
+	"0x78": {
+		"name": "Sunflower Commander",
+		"nameZh": "向日葵指挥官",
+		"background": 2,
+		"waves": 40,
+		"allowed": [
+			"TRAFFIC_CONE",
+			"POLEVAULTER",
+			"SNORKEL",
+			"ZAMBONI",
+			"DIGGER",
+			"JALAPENO_HEAD",
+			"TALLNUT_HEAD"
+		],
+		"pail": true,
+		"bannedSeeds": [
+			"SUNFLOWER",
+			"SUNSHROOM",
+			"TWINSUNFLOWER",
+			"SEASHROOM",
+			"PUFFSHROOM"
+		],
+		"nameColor": "green",
+		"status": "built",
+		"key": "sunflowerCommander"
+	},
+	"0x79": {
+		"name": "Giant Crisis",
+		"nameZh": "巨人危机",
+		"background": 0,
+		"waves": 40,
+		"allowed": [
+			"GARGANTUAR",
+			"REDEYE_GARGANTUAR"
+		],
+		"pail": false,
+		"normal": false,
+		"chooser": false,
+		"bank": [
+			"SUNFLOWER",
+			"SNOWPEA",
+			"MARIGOLD",
+			"INSTANT_COFFEE",
+			"ICESHROOM",
+			"DOOMSHROOM",
+			"DOOMSHROOM",
+			"CHERRYBOMB",
+			"SQUASH",
+			"POTATOMINE"
+		],
+		"nameColor": "red",
+		"status": "built",
+		"key": "giantCrisis"
+	},
+	"0x7a": {
+		"name": "Big Zombie, Little Trouble",
+		"nameZh": "大僵尸小麻烦",
+		"background": 0,
+		"waves": 30,
+		"allowed": [
+			"TRAFFIC_CONE",
+			"DOOR",
+			"JACK_IN_THE_BOX",
+			"SQUASH_HEAD"
+		],
+		"pail": false,
+		"nameColor": "blue",
+		"status": "built",
+		"key": "bigZombie"
+	},
+	"0x7b": {
+		"name": "Frequency Switch",
+		"nameZh": "频率切换",
+		"background": 3,
+		"waves": 30,
+		"allowed": [
+			"FOOTBALL",
+			"SNORKEL",
+			"DOLPHIN_RIDER",
+			"BALLOON",
+			"DIGGER",
+			"LADDER",
+			"GATLING_HEAD"
+		],
+		"pail": true,
+		"nameColor": "purple",
+		"status": "built",
+		"key": "frequencySwitch"
+	},
+	"0x7c": {
+		"name": "Light and Mist",
+		"nameZh": "光明与雾霭",
+		"background": 3,
+		"waves": 30,
+		"allowed": [
+			"POLEVAULTER",
+			"SNORKEL",
+			"JACK_IN_THE_BOX",
+			"POGO",
+			"CATAPULT",
+			"GARGANTUAR",
+			"JALAPENO_HEAD"
+		],
+		"pail": true,
+		"nameColor": "red",
+		"status": "built",
+		"key": "lightAndMist"
+	},
+	"0x7d": {
+		"name": "Random Vasebreaker",
+		"nameZh": "随机砸罐",
+		"background": 1,
+		"waves": 10,
+		"pail": true,
+		"seedSlots": 1,
+		"nameColor": "blue",
+		"status": "built",
+		"key": "randomVasebreaker"
+	},
+	"0x7e": {
+		"name": "Pincer Attack",
+		"nameZh": "两面包夹",
+		"background": 0,
+		"waves": 30,
+		"allowed": [
+			"DOOR",
+			"FOOTBALL",
+			"JACK_IN_THE_BOX",
+			"BUNGEE",
+			"WALLNUT_HEAD",
+			"TALLNUT_HEAD"
+		],
+		"pail": false,
+		"nameColor": "pulse",
+		"status": "built",
+		"key": "pincerAttack",
+		"rules": {
+			"fromWave": 6
+		}
+	},
+	"0x7f": {
+		"name": "Trick of Tricks",
+		"nameZh": "套路的套路",
+		"background": 7,
+		"waves": 40,
+		"allowed": [
+			"POLEVAULTER",
+			"BALLOON",
+			"GARGANTUAR"
+		],
+		"pail": true,
+		"startSun": 200,
+		"nameColor": "purple",
+		"status": "built",
+		"key": "trickOfTricks"
+	},
+	"0x80": {
+		"name": "Limited Supply",
+		"nameZh": "限量供应",
+		"background": 0,
+		"waves": 30,
+		"allowed": [
+			"TRAFFIC_CONE",
+			"DOOR",
+			"DANCER",
+			"DIGGER",
+			"POGO",
+			"CATAPULT"
+		],
+		"pail": true,
+		"startSun": 2000,
+		"nameColor": "blue",
+		"status": "built",
+		"key": "limitedSupply"
+	},
+	"0x81": {
+		"name": "Luck: Lucky or Unlucky?",
+		"nameZh": "Luck：欧非鉴定",
+		"background": 1,
+		"waves": 40,
+		"allowed": [
+			"TRAFFIC_CONE",
+			"POLEVAULTER",
+			"DOOR",
+			"FOOTBALL",
+			"ZAMBONI",
+			"BUNGEE",
+			"LADDER",
+			"GARGANTUAR",
+			"REDEYE_GARGANTUAR",
+			"WALLNUT_HEAD",
+			"TALLNUT_HEAD"
+		],
+		"pail": true,
+		"conveyor": true,
+		"conveyorSeeds": [
+			[
+				"SPROUT",
+				90
+			],
+			[
+				"CHERRYBOMB",
+				5
+			],
+			[
+				"GRAVEBUSTER",
+				5
+			]
+		],
+		"nameColor": "green",
+		"status": "built",
+		"key": "luck"
+	},
+	"0x82": {
+		"name": "Sow Beans, Reap Melons",
+		"nameZh": "种豆得瓜",
+		"background": 6,
+		"waves": 40,
+		"allowed": [
+			"TRAFFIC_CONE",
+			"NEWSPAPER",
+			"ZAMBONI",
+			"LADDER",
+			"GARGANTUAR",
+			"PEA_HEAD",
+			"GATLING_HEAD",
+			"REDEYE_GARGANTUAR"
+		],
+		"pail": true,
+		"nameColor": "blue",
+		"status": "built",
+		"key": "sowBeans"
+	},
+	"0x83": {
+		"name": "Dr. Second-Master's Revenge",
+		"nameZh": "二爷博士的复仇",
+		"background": 0,
+		"waves": 40,
+		"pail": true,
+		"startSun": 500000,
+		"nameColor": "gold",
+		"status": "built",
+		"key": "secondUncle"
+	},
+	"0x84": {
+		"name": "An Eye for an Eye",
+		"nameZh": "以牙还牙",
+		"background": 3,
+		"waves": 20,
+		"allowed": [
+			"TRAFFIC_CONE",
+			"FOOTBALL",
+			"DANCER",
+			"PEA_HEAD",
+			"GATLING_HEAD",
+			"GARGANTUAR"
+		],
+		"pail": true,
+		"conveyor": true,
+		"conveyorSeeds": [
+			[
+				"HYPNOSHROOM",
+				80
+			],
+			[
+				"LILYPAD",
+				16
+			],
+			[
+				"BLOVER",
+				4
+			]
+		],
+		"nameColor": "blue",
+		"status": "built",
+		"key": "eyeForAnEye"
+	},
+	"0x85": {
+		"name": "Zombie Counter-Espionage",
+		"nameZh": "僵尸反间计",
+		"background": 4,
+		"waves": 40,
+		"allowed": [
+			"TRAFFIC_CONE",
+			"DIGGER"
+		],
+		"pail": false,
+		"normal": false,
+		"nameColor": "green",
+		"status": "built",
+		"key": "counterEspionage"
+	},
+	"0x86": {
+		"name": "Leaning Left",
+		"nameZh": "左倾",
+		"background": 4,
+		"waves": 30,
+		"allowed": [
+			"POLEVAULTER",
+			"FOOTBALL",
+			"DANCER",
+			"POGO",
+			"LADDER",
+			"GARGANTUAR"
+		],
+		"pail": false,
+		"nameColor": "purple",
+		"status": "built",
+		"key": "leaningLeft",
+		"rules": {
+			"attackShift": 250
+		}
+	},
+	"0x87": {
+		"name": "Glove War 2",
+		"nameZh": "手套之战 2",
+		"background": 1,
+		"waves": 30,
+		"allowed": [
+			"PEA_HEAD",
+			"NEWSPAPER",
+			"BALLOON",
+			"CATAPULT",
+			"GARGANTUAR"
+		],
+		"pail": false,
+		"seedSlots": 7,
+		"nameColor": "pulse",
+		"status": "built",
+		"key": "gloveWar2"
+	},
+	"0x88": {
+		"name": "Territorial",
+		"nameZh": "领地意识",
+		"background": 6,
+		"waves": 30,
+		"allowed": [
+			"TRAFFIC_CONE",
+			"POLEVAULTER",
+			"POGO",
+			"CATAPULT",
+			"LADDER",
+			"GARGANTUAR",
+			"JALAPENO_HEAD"
+		],
+		"pail": true,
+		"nameColor": "red",
+		"status": "built",
+		"key": "territorial"
+	},
+	"0x89": {
+		"name": "Glutton Star",
+		"nameZh": "贪吃星",
+		"background": 0,
+		"waves": 30,
+		"allowed": [
+			"NEWSPAPER",
+			"FOOTBALL",
+			"DANCER",
+			"GARGANTUAR",
+			"SQUASH_HEAD",
+			"TALLNUT_HEAD",
+			"REDEYE_GARGANTUAR"
+		],
+		"pail": true,
+		"seedSlots": 3,
+		"nameColor": "purple",
+		"status": "built",
+		"key": "gluttonStar"
+	},
+	"0x8a": {
+		"name": "Invisible Guardian",
+		"nameZh": "隐形守护者",
+		"background": 0,
+		"waves": 30,
+		"allowed": [
+			"POLEVAULTER",
+			"BUNGEE",
+			"PEA_HEAD",
+			"CATAPULT",
+			"TALLNUT_HEAD"
+		],
+		"pail": false,
+		"startSun": 200,
+		"nameColor": "red",
+		"status": "built",
+		"key": "invisibleGuardian"
+	},
+	"0x8b": {
+		"name": "Bullet Carnival",
+		"nameZh": "子弹狂欢",
+		"background": 1,
+		"waves": 0,
+		"pail": true,
+		"chooser": false,
+		"nameColor": "pulse",
+		"status": "built",
+		"key": "bulletCarnival"
+	},
+	"0x8c": {
+		"name": "I Am Luck",
+		"nameZh": "我是Luck",
+		"background": 1,
+		"waves": 40,
+		"pail": true,
+		"startSun": 6750,
+		"nameColor": "green",
+		"status": "built",
+		"key": "iAmLuck"
+	},
+	"0x8d": {
+		"name": "Glove War 3",
+		"nameZh": "手套之战3",
+		"background": 0,
+		"waves": 40,
+		"allowed": [
+			"TRAFFIC_CONE",
+			"PAIL",
+			"NEWSPAPER",
+			"DOOR",
+			"FOOTBALL",
+			"JACK_IN_THE_BOX",
+			"CATAPULT",
+			"GARGANTUAR",
+			"PEA_HEAD",
+			"SQUASH_HEAD",
+			"TALLNUT_HEAD"
+		],
+		"pail": true,
+		"chooser": false,
+		"nameColor": "pulse",
+		"status": "built",
+		"key": "gloveWar3"
+	},
+	"0x8e": {
+		"name": "Brother Zeng and WASD",
+		"nameZh": "曾哥与WASD",
+		"background": 0,
+		"waves": 30,
+		"allowed": [
+			"TRAFFIC_CONE",
+			"DOOR",
+			"FOOTBALL",
+			"LADDER",
+			"WALLNUT_HEAD",
+			"SQUASH_HEAD",
+			"TALLNUT_HEAD"
+		],
+		"pail": true,
+		"chooser": false,
+		"nameColor": "blue",
+		"status": "built",
+		"key": "zengWasd"
+	},
+	"0x8f": {
+		"name": "Tall-nut's Probe",
+		"nameZh": "高坚果的试探",
+		"background": 1,
+		"waves": 40,
+		"pail": true,
+		"seedSlots": 1,
+		"nameColor": "gold",
+		"status": "built",
+		"key": "tallnutProbe"
+	},
+	"0x90": {
+		"name": "Trick of Tricks 2",
+		"nameZh": "套路的套路2",
+		"background": 0,
+		"waves": 40,
+		"allowed": [
+			"POLEVAULTER",
+			"PAIL",
+			"NEWSPAPER",
+			"LADDER",
+			"GARGANTUAR"
+		],
+		"pail": true,
+		"bannedSeeds": [
+			"SQUASH"
+		],
+		"nameColor": "red",
+		"status": "built",
+		"key": "trickOfTricks2"
+	},
+	"0x91": {
+		"name": "All the Same One",
+		"nameZh": "全是一个",
+		"background": 1,
+		"waves": 60,
+		"allowed": [
+			"PAIL",
+			"FOOTBALL",
+			"ZAMBONI",
+			"JACK_IN_THE_BOX",
+			"GARGANTUAR",
+			"TALLNUT_HEAD",
+			"REDEYE_GARGANTUAR"
+		],
+		"pail": true,
+		"seedSlots": 1,
+		"graves": 0,
+		"nameColor": "blue",
+		"status": "built",
+		"key": "allTheSame"
+	},
+	"0x92": {
+		"name": "Elite Zombies' Challenge",
+		"nameZh": "精英僵尸的挑战",
+		"background": 0,
+		"waves": 25,
+		"allowed": [
+			"DANCER"
+		],
+		"pail": true,
+		"startSun": 500,
+		"firstWaveCountdown": 7500,
+		"nameColor": "red",
+		"status": "built",
+		"key": "eliteChallenge"
+	},
+	"0x93": {
+		"name": "Unnamed Level",
+		"nameZh": "未命名关卡",
+		"background": 0,
+		"waves": 40,
+		"pail": true,
+		"nameColor": "gold",
+		"status": "placeholder",
+		"note": "An empty slot in the mod itself"
+	},
+	"0x94": {
+		"name": "Unnamed Level",
+		"nameZh": "未命名关卡",
+		"background": 0,
+		"waves": 40,
+		"pail": true,
+		"nameColor": "gold",
+		"status": "placeholder",
+		"note": "An empty slot in the mod itself"
+	}
+}

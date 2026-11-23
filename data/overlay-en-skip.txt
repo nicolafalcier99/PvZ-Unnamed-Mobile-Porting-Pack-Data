@@ -1,0 +1,102 @@
+# English mode: Unnamed files NOT served (vanilla main.pak used instead). One path per line, relative to assets/.
+# Rule: file differs from vanilla AND differs only because of language. Method and borderline calls: overlay-en-skip.md
+# Generated 2026-11-22 from the research notes (enskip_compare) + visual checks. Chinese mode ignores this file.
+
+# Fonts (bitmap fonts with Unnamed's re-mapped/CJK layout; vanilla fonts cover all English text)
+data/BrianneTod12.txt
+data/BrianneTod16.txt
+data/BrianneTod32.txt
+data/BrianneTod32Black.txt
+data/ContinuumBold14.txt
+data/ContinuumBold14outback.txt
+data/DwarvenTodcraft12.txt
+data/DwarvenTodcraft15.txt
+data/DwarvenTodcraft18.txt
+data/DwarvenTodcraft18BrightGreenInset.txt
+data/DwarvenTodcraft18GreenInset.txt
+data/DwarvenTodcraft18Yellow.txt
+data/DwarvenTodcraft24.txt
+data/DwarvenTodcraft36BrightGreenInset.txt
+data/DwarvenTodcraft36GreenInset.txt
+data/HouseofTerror16.txt
+data/HouseofTerror20.txt
+data/HouseofTerror28.png
+data/HouseofTerror28.txt
+data/Pico129.txt
+data/Pix118Bold.txt
+data/_HouseofTerror16.png
+
+# Main menu (SelectorScreen): tombstone buttons, their highlights and the shadow drawn to the Chinese button shape
+reanim/SelectorScreen_StartAdventure_Button1.png
+reanim/SelectorScreen_StartAdventure_Highlight.png
+reanim/SelectorScreen_Adventure_button.png
+reanim/SelectorScreen_Adventure_highlight.png
+reanim/SelectorScreen_Shadow_Adventure.png
+reanim/SelectorScreen_Survival_button.png
+reanim/SelectorScreen_Survival_highlight.png
+reanim/SelectorScreen_Challenges_button.png
+reanim/SelectorScreen_Challenges_highlight.png
+reanim/SelectorScreen_Vasebreaker_button.png
+reanim/SelectorScreen_vasebreaker_highlight.png
+# Main menu: wooden sign, vases, almanac / shop / zen garden labels, 汉化第二版 tombstone
+reanim/SelectorScreen_WoodSign1.png
+reanim/SelectorScreen_WoodSign2.png
+reanim/SelectorScreen_WoodSign2_press.png
+reanim/SelectorScreen_BG_Right.png
+images/SelectorScreen_Help1.png
+images/SelectorScreen_Help2.png
+images/SelectorScreen_Options1.png
+images/SelectorScreen_Options2.png
+images/SelectorScreen_Quit1.png
+images/SelectorScreen_Quit2.png
+images/SelectorScreen_Almanac.png
+images/SelectorScreen_AlmanacHighlight.png
+images/SelectorScreen_Store.png
+images/SelectorScreen_StoreHighlight.png
+images/SelectorScreen_ZenGarden.png
+images/SelectorScreen_ZenGardenHighlight.png
+
+# Title logo (植物大战僵尸 无名版), colour + alpha pair
+images/PvZ_Logo.jpg
+images/PvZ_Logo_.png
+
+# Shop and Zen Garden
+images/Store_Sign.png
+images/Store_NextButton.png
+images/Store_NextButtonHighlight.png
+images/Store_PrevButton.png
+images/Store_PrevButtonHighlight.png
+images/zenshopbutton.png
+images/zenshopbutton_highlight.png
+
+# In-game text images
+reanim/StartReady.png
+reanim/StartSet.png
+reanim/StartPlant.png
+reanim/FinalWave.png
+reanim/ZombiesWon.jpg
+reanim/ZombiesWon_.png
+images/FlagMeterLevelProgress.png
+images/Almanac.png
+images/Tombstones.jpg
+reanim/Zombie_questionmark.png
+
+# Bobsled: only the BRAINS OR BUST lettering differs (frames 2-4 also sit a few px higher); all four go together
+images/Zombie_bobsled1.png
+images/Zombie_bobsled2.png
+images/Zombie_bobsled3.png
+images/Zombie_bobsled4.png
+
+# Zombie notes (handwritten letters)
+images/ZombieNote1.png
+images/ZombieNote2.png
+images/ZombieNote3.png
+images/ZombieNote4.png
+images/ZombieNoteHelp.png
+images/Zombiefinalnote.png
+images/Credits_ZombieNote.png
+
+# Credits
+reanim/Credits_MTV.png
+reanim/Credits_wearetheundead.jpg
+reanim/Credits_wearetheundead_.png
